@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+#sdc_area_box {
+
+}
+
+.i_list_types textarea, .i_list_types select, .i_list_types input {
+    display: block;
+    float: left;
+    padding: 3px 5px;
+    width: 450px;
+}
+.i_list_types input[type="checkbox"] {
+    height: auto;
+    margin: 8px auto 0;
+    width: auto;
+}
+.i_row {
+    clear: both;
+    margin: 10px 0;
+    overflow: hidden;
+}
+.i_row label {
+    display: block;
+    float: left;
+    font-size: 90%;
+    margin: 0 34px 0 0;
+    padding: 5px 0 4px;
+    text-align: right;
+    width: 100px;
+}
+.i_row .subtitle {
+    color: #777;
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 0 4px 20px;
+}
+.i_sdc_meta_field {
+    display: none;
+}
+.i_sdc_meta_preview_div {
+    background: #ccc;
+    overflow: hidden;
+    padding: 10px;
+    margin: 40px auto;
+}
+.i_sdc_meta_preview {
+    background: #eee;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px auto;
+    padding: 10px 10px;
+}
+#sdc_area_box .i_sdc_meta_preview_div > h1, #sdc_area_box .i_sdc_meta_preview_div > h2, #sdc_area_box .i_sdc_meta_preview_div h2 {
+    margin: 20px 0 10px;
+    padding: 0 0 10px;
+}
+.i_sdc_meta_preview_div .i_sdc_html_preview {
+    display: block;
+    float: none;
+    height: 200px;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 100%;
+    overflow: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.i_row label.sdc_group_parent_label {
+    display: block;
+    float: none;
+    font-size: 12px;
+    padding: 16px 10px;
+    text-align: left;
+    width: auto;
+}
+.fields_group_div .i_input {
+    width: 150px;
+}
+.i_preview_img {
+    height: auto;
+    width: 50px;
+}
+.i_hidden {
+    display: none;
+}
